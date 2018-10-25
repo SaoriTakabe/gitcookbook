@@ -1,4 +1,4 @@
-SSH = 'ssh -A'
+SSH = 'ssh -A -l ubuntu'
 
 desc "Run Puppet on ENV['CLIENT']"
 task :apply do
